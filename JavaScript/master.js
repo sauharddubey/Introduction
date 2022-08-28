@@ -39,7 +39,7 @@ gsap.to(sections, {
 
 // redirect
 $(window).on('load resize',function(){
-        if($(window).width() < 1200){
+        if($(window).width() < 1450){
             window.location = "page Under construction.html"
         }
     });
