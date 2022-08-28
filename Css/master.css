@@ -1,17 +1,17 @@
 /* fonts */
 @font-face {
 font-family: "Mainfont";
-src: url("fonts/alegreya-sans.thin.ttf") format("truetype");
+src: url("Welcome/fonts/alegreya-sans.thin.ttf") format("truetype");
 }
 
 @font-face {
 font-family: "sdfont";
-src: url("fonts/amsterdam-four-ttf.ttf") format("truetype");
+src: url("Welcome/fonts/amsterdam-four-ttf.ttf") format("truetype");
 }
 
 @font-face {
 font-family: "head";
-src: url("fonts/alegreya-sans.light.ttf") format("truetype");
+src: url("Welcome/fonts/alegreya-sans.light.ttf") format("truetype");
 }
 
 
