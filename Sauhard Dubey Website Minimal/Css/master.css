@@ -1,0 +1,281 @@
+/* fonts */
+@font-face {
+font-family: "Mainfont";
+src: url("handwriring/Mainfont.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "sdfont";
+src: url("handwriring/Name.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "head";
+src: url("handwriring/headfont.ttf") format("truetype");
+}
+
+
+
+body{
+  margin: 0;
+  border:0;
+  cursor: url("handwriring/giphy (1).gif"), default;
+}
+
+a{
+  cursor: url("handwriring/feather.gif"), default;
+
+}
+
+
+/* Navbar  */
+
+
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: primary;
+}
+nav {
+
+  font-family: "Mainfont";
+  font-size: 1.2rem;
+background-color: #121212;
+
+  padding-right: 5%;
+  padding-top: 1%
+
+}
+nav li{
+  padding-left: 30px;
+}
+
+
+
+/* main */
+
+#main{
+  font-family: "sdfont";
+  width: 100%;
+  background-color: #121212;
+
+  height: 750px;
+  color: white;
+  justify-content: center;
+}
+
+.data{
+  display: inline-block;
+
+  position: relative;
+  left: 32%;
+  top: 40%;
+}
+
+.data h1{
+  font-size: 4rem;
+}
+
+.data h5{
+  font-family: "Mainfont";
+  padding-left: 80px;
+  font-size: 1.5rem;
+}
+
+
+/*  Hello */
+
+#hello{
+  width: 100%;
+  height: 600px;
+  font-family: "Mainfont";
+justify-content: center;
+text-align: center;
+
+}
+#hello h1{
+  padding-top: 100px;
+  font-size: 4rem;
+}
+#hello .inhelo{
+  font-size: 1.5rem;
+  padding-top: 100px;
+  margin-left: 26%;
+  width: 50%;
+}
+
+
+/* Skills */
+
+#skills{
+  font-family: "head";
+  width: 100%;
+  height: 800px;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #121212;
+  color: white;
+}
+
+.big{
+  display: flex;
+
+}
+#skills h1{
+  padding-top: 100px;
+  font-size: 4rem;
+
+}
+.inskill{
+  margin-left: 30px;
+  margin-top: 200px;
+  padding: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 30%;
+
+
+}
+
+.inskill:hover{
+  color: #3494db;
+
+
+}
+#skills span{
+  font-family: "Mainfont";
+
+}
+
+.pico{
+  width: 50px;
+  height: 50px;
+}
+
+
+/* Education */
+#education{
+  font-family: "head";
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  /* background: linear-gradient(to left, #ffffff -4%, #121212 122%); */
+
+}
+#education h1{
+  padding-top: 100px;
+  font-size: 3.5rem;
+}
+
+
+.padded{
+  padding-top: 100px;
+}
+
+
+
+
+ .scrolly{
+
+
+   width:100%;
+
+
+   justify-content: center;
+
+ overflow: hidden;
+   white-space: nowrap;
+
+
+
+ }
+
+
+
+ .elemets{
+   width: 100%;
+   font-size: 2rem;
+   text-align: center;
+  padding:100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: inline-block;
+
+ }
+
+
+
+  .pic1{
+
+margin-left: 350px;
+    width: 80px;
+    height: 70px;
+  }
+  .pic{
+
+    margin-left: 350px;
+
+    width: 100px;
+    height: 90px;
+  }
+
+
+
+/* socials */
+
+#social{
+  background-color: #121212;
+  font-family: "head";
+  width: 100%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+#social h1{
+  padding-top: 50px;
+  font-size: 3.5rem;
+}
+
+.logos{
+
+  display: flex;
+  margin-left: 200px;
+}
+.log{
+
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* footer */
+
+footer{
+  /* color: white; */
+  background-color: white;
+  font-family: "head";
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+footer h4{
+  font-size: 1rem;
+}
+footer h2{
+  font-size: 1rem;
+}
+
+footer h6{
+  font-size: 1rem;
+}
+
+
+/* darkmode */
+/* .dark-mode {
+  background-color: yellow;
+  color: black;
+} */
